@@ -16,10 +16,12 @@ New 3DS에서 TWiLight Menu++로 실행하는 DS 게임을 **입체 3D**와 **�
 
 이 패치는 아래 두 가지가 **이미 설치되어 정상 동작하는 상태**에 덧붙이는 것입니다. 이 저장소는 이 둘의 설치 방법을 다루지 않습니다.
 
+와이드스크린 패치를 아직 설치하지 않았다면 DS-Homebrew 위키의 안내를 따라 먼저 설치하세요: **[TWiLight Menu++ — 와이드스크린으로 플레이하기](https://wiki.ds-homebrew.com/ko-KR/twilightmenu/playing-in-widescreen)**
+
 | 미리 필요한 것 | 확인 방법 |
 |---|---|
 | **TWiLight Menu++** (확인 버전 v27.25.1, nds-bootstrap v2.17.0) | TWiLight Menu에서 DS 게임이 실행됨 |
-| **TWPatch 와이드스크린 패치** (RTCom 옵션 포함) | 게임 화면 비율을 16:10으로 하면 2D 와이드스크린으로 나옴. SD 카드에 `sd:/_nds/TWiLightMenu/TwlBg/Widescreen.cxi`가 있음 |
+| **TWPatch 와이드스크린 패치** (RTCom 옵션 포함) — [설치 안내](https://wiki.ds-homebrew.com/ko-KR/twilightmenu/playing-in-widescreen) | 게임 화면 비율을 16:10으로 하면 2D 와이드스크린으로 나옴. SD 카드에 `sd:/_nds/TWiLightMenu/TwlBg/Widescreen.cxi`가 있음 |
 
 다른 버전의 TWiLight Menu++에서는 확인하지 못했습니다. 본체와 롬에 대한 조건은 아래 [조건](#조건)을 보세요.
 
@@ -85,7 +87,7 @@ New 3DS에서 TWiLight Menu++로 실행하는 DS 게임을 **입체 3D**와 **�
 1. **New 3DS 또는 New 3DS XL.** 구형 3DS·2DS·New 2DS XL은 안 됩니다 (3D 화면 제어 칩이 다릅니다).
 2. **Luma3DS** 설정에서 `Enable loading external FIRMs and modules`가 켜져 있음.
 3. **TWiLight Menu++**와 nds-bootstrap이 설치되어 DS 게임이 실행됨. (확인 버전: TWiLight Menu++ v27.25.1, nds-bootstrap v2.17.0)
-4. **TWPatch 와이드스크린**(RTCom 옵션 포함)이 설치되어 2D 와이드스크린이 동작함.
+4. **TWPatch 와이드스크린**(RTCom 옵션 포함)이 설치되어 2D 와이드스크린이 동작함. ([설치 안내](https://wiki.ds-homebrew.com/ko-KR/twilightmenu/playing-in-widescreen))
    패처는 TWPatch가 만든 파일의 코드를 630바이트 고칩니다. 고칠 위치가 고정되어 있어서 **제작자 본체에서 나온 것과 같은 빌드**(파일 SHA-256 `082a9e569ebf5aac…`, 1,292,800바이트)에만 적용됩니다. 시스템 버전, TWPatch 버전이나 옵션이 달라 빌드가 다르면 패처가 아무것도 쓰지 않고 멈추며, 그 경우는 지원하지 않습니다.
 
 ### 롬 조건
